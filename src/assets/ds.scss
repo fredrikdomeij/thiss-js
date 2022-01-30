@@ -89,7 +89,7 @@ h2, .type-ahead-alert p, .type-ahead-alert a {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.43;
-  margin: 5px 0 20px 0;
+  margin: 5px 0 0 0;
 }
 
 h3 {
@@ -133,12 +133,23 @@ h3 {
   box-shadow: 0 10px 40px -14px rgba(0,0,0,0.25);
 }
 
-.content {
-	min-height: 75%;
+.container-ladok-development-discovery{
+  display: flex;
+  -moz-display: box;
+  -ms-display: flexbox;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+
+  /* Master Width Definition */
+  max-width: 900px;
+  max-height: 188px;
 }
 
-header {
-	height: 70px;
+.content {
+	min-height: 60%;
 }
 
 header p {
@@ -149,7 +160,6 @@ header p {
 footer {
   max-height: 70px;
   background-color: var(--footer-grey);
-  margin-top: 60px;
   padding: 20px;
 }
 
@@ -185,9 +195,13 @@ footer {
     margin: 0 15px 3px 0;
 }
 
+.ladok-development-discovery-img {
+	width: 100%;
+}
+
 .account {
   font-size: 13px;
-  padding: 10px 0px 20px 20px ;
+  padding: 10px 0px 0px 20px ;
 }
 
 .account-pill {
